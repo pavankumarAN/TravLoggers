@@ -1,0 +1,32 @@
+ul {
+    list-style: none;
+}
+
+#page-logo a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 50px;
+    color: #212f45;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 10px; */
+}
+
+#container nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#container nav ul li {
+    margin: 0 10px;
+}
+
+#container nav ul li a {
+    text-decoration: none;
+}

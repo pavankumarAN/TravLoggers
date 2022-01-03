@@ -14,9 +14,43 @@
 
 #hero-content {
     width: 900px;
-    background-color: rgba(51, 47, 47, 0.5);
+    background-color: rgba(51, 47, 47, 0.6);
     box-shadow: 2px 4px 8px rgb(68, 67, 67);
     text-align: center;
     padding: 50px 0;
     margin: 0 auto;
+    position: relative;
+    top: 150px;
+    border-radius: 12px;
+}
+
+#hero-content h1 {
+    color: white;
+    font-size: 52px;
+    font-weight: 300;
+}
+
+#hero-content p {
+    color: black;
+    font-size: 34px;
+    font-weight: 800;
+    margin: 24px 0 32px 0;
+    position: relative;
+    right: 200px;
+    font-style: italic;
+}
+
+#hero-content a {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #415d43;
+    padding: 8px 24px;
+    border-radius: 8px;
+}
+
+#hero-content a:hover, #hero-content a:active {
+    background-color: #415d55;
+    padding: 10px 24px;
 }

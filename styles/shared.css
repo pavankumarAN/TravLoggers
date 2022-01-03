@@ -3,7 +3,7 @@ ul {
 }
 
 #page-logo a {
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
     font-size: 50px;
     color: #212f45;
@@ -14,7 +14,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 60px;
+    padding: 8px 60px;
 }
 
 #container nav ul {

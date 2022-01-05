@@ -57,7 +57,8 @@
 /* Important youtube channels */
 #imp-ytube-channels {
     padding: 24px;
-    background-color: #b8e0d2;
+    /* background-color: #b8e0d2; */
+    background: linear-gradient(50deg, #b8e0b0, #b8e0d2);
 }
 
 .ytube img {

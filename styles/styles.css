@@ -6,7 +6,6 @@
 
 #hero {
     height: 800px;
-    /* background-repeat: no-repeat; */
     background-image: url('/images/cv3.jpeg');
     background-size: cover;
     background-position: center;
@@ -56,6 +55,11 @@
 }
 
 /* Important youtube channels */
+#imp-ytube-channels {
+    padding: 24px;
+    background-color: #b8e0d2;
+}
+
 .ytube img {
     height: 200px;
     width: 100%;

@@ -54,3 +54,42 @@
     background-color: #415d55;
     padding: 10px 24px;
 }
+
+/* Important youtube channels */
+.ytube img {
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 5px;
+}
+
+.ytube-channels {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.ytube {
+    margin: 10px 20px;
+}
+
+.ytube p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 24px;
+    color: #03543f;
+}
+
+#imp-ytube-channels h2 {
+    text-align: center;
+    margin: 16px 12px 12px 12px;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #014737;
+    font-weight: bold;
+    font-style: oblique;
+}

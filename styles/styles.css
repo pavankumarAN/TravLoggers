@@ -68,6 +68,14 @@
     border-radius: 5px;
 }
 
+.ytube iframe {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px rgb(24, 25, 25);
+}
+
 .ytube-channels {
     display: flex;
     width: 90%;
@@ -76,6 +84,10 @@
     margin: auto;
     margin-bottom: 40px;
     text-transform: uppercase;
+}
+
+.ytube-channels a {
+    text-decoration: none;
 }
 
 .ytube {

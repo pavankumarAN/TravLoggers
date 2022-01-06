@@ -42,3 +42,19 @@ ul {
     background-color: #ffd400;
     border-radius: 5px;
 }
+
+/* Footer */
+
+footer {
+    background: linear-gradient(65deg, #e9ecef, #adb5bd);
+    padding: 25px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 25px;
+}

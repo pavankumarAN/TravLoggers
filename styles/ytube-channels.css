@@ -1,0 +1,45 @@
+main {
+    background-color: #adb5bd;
+}
+
+#container {
+    position: static;
+    background-color: #adb5bd;
+}
+
+#thumbnails {
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.thumbnail {
+    display: flex;
+    flex-direction: column;
+    background-color: #adb5ba;
+    padding: 10px;
+}
+
+.thumbnail iframe {
+    height: 250px;
+    width: 350px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px rgb(24, 25, 25);
+}
+
+.thumbnail a {
+    text-decoration: none;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background: linear-gradient(65deg, #adb5b1, #adb5b8);
+}

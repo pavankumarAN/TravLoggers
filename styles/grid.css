@@ -9,13 +9,17 @@ main {
 
 #thumbnails {
     padding: 15px 30px;
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
 }
 
 .thumbnail {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     background-color: #adb5ba;
     padding: 10px;
 }

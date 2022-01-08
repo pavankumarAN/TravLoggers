@@ -11,8 +11,9 @@ main {
     padding: 15px 30px;
     width: 100%;
     display: grid;
+    /* Added auto for maximizing 3columns. */
     grid-template-columns: auto auto auto;
-    gap: 20px 20px;
+    /* for bringing text at the center. */
     text-align: center;
 }
 
